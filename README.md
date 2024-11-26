@@ -68,6 +68,3 @@ This project is a simple JWT-based authentication system built using ASP.NET Cor
 
 ## Contributing
 Feel free to open issues or submit pull requests. Contributions are welcome!
-
-## License
-This project is licensed under the MIT License.
