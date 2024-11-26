@@ -12,7 +12,7 @@ This project is a simple JWT-based authentication system built using ASP.NET Cor
 ## Prerequisites
 1. .NET 6 SDK or higher installed on your system.
 2. MongoDB as the database for storing user data.
-3.
+
 ## How to Run
 1. Clone this repository:
    ```bash
