@@ -1,0 +1,85 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.swp
+*.DS_Store
+
+# Visual Studio working files
+.vscode/
+.vs/
+.idea/
+
+# Build artifacts
+*.dll
+*.exe
+*.log
+*.sql
+*.sqlite
+*.pdb
+
+# OS-specific files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Runtime files
+*.lock.json
+*.lock
+
+# Configurations
+appsettings.*.json
+appsettings.local.json
+
+# Logs
+*.log
+logs/
+logs/*
+
+# Dependency directories
+node_modules/
+packages/
+
+# Generated files
+*.generated.cs
+
+# Secrets
+secrets.json
+.env
+
+# Coverage results
+coverage/
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.cache
+*.gzip
+
+# Publish outputs
+publish/
+wwwroot/
+
+# JetBrains Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+*.*~resharper
+
+# Swagger auto-generated files
+swagger/
+swagger-ui/
