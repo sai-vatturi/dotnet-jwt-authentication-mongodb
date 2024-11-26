@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApp.API", "AuthApp.API\AuthApp.API.csproj", "{EC5FF7AC-61F4-4045-AF91-791463925440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApp.Services", "AuthApp.Services\AuthApp.Services.csproj", "{D4F14849-29EA-4C02-87DF-45F324678C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApp.Utility", "AuthApp.Utility\AuthApp.Utility.csproj", "{03F5711F-D666-408F-9714-6CA3E832299C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC5FF7AC-61F4-4045-AF91-791463925440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5FF7AC-61F4-4045-AF91-791463925440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5FF7AC-61F4-4045-AF91-791463925440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5FF7AC-61F4-4045-AF91-791463925440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F14849-29EA-4C02-87DF-45F324678C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F14849-29EA-4C02-87DF-45F324678C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F14849-29EA-4C02-87DF-45F324678C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F14849-29EA-4C02-87DF-45F324678C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F5711F-D666-408F-9714-6CA3E832299C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F5711F-D666-408F-9714-6CA3E832299C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F5711F-D666-408F-9714-6CA3E832299C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F5711F-D666-408F-9714-6CA3E832299C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

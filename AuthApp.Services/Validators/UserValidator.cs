@@ -1,9 +1,10 @@
 using System.ComponentModel.DataAnnotations;
 using AuthApp.Models;
-using AuthApp.Repositories;
+using AuthApp.Services.Repositories;
 using AuthApp.Services;
+using AuthApp.Utility.Utilities;
 
-namespace AuthApp.Validators
+namespace AuthApp.Services.Validators
 {
 	public class UserValidator
 	{

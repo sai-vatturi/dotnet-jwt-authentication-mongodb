@@ -1,20 +1,20 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using AuthApp.Services;
-using AuthApp.Validators;
 using AuthApp.Models;
+using AuthApp.Services.Validators;
 
-namespace AuthApp.Controllers
+namespace AuthApp.API.Controllers
 {
     [Tags("Users")]
     [Route("[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class AuthController : ControllerBase
     {
         private UserService _userService;
         private UserValidator _userValidator;
 
-        public UserController(UserValidator userValidator, UserService userService)
+        public AuthController(UserValidator userValidator, UserService userService)
         {
             _userService=userService;
             _userValidator=userValidator;

@@ -1,6 +1,7 @@
 using AuthApp.Models;
-using AuthApp.Repositories;
+using AuthApp.Services.Repositories;
 using AuthApp.Services;
+using AuthApp.Utility.Utilities;
 
 namespace AuthApp.Services
 {

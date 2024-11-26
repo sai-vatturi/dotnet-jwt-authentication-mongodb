@@ -1,9 +1,9 @@
-using AuthApp.Config;
+using AuthApp.Services.Config;
 using AuthApp.Models;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
-namespace AuthApp.Repositories
+namespace AuthApp.Services.Repositories
 {
 	public class UserServiceDB
 	{
