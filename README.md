@@ -20,7 +20,7 @@ This project is a simple JWT-based authentication system built using ASP.NET Cor
    ```
 2. Navigate to the project directory:
    ```bash
-   cd dotnet-jwt-authentication-mongodb
+   cd dotnet-jwt-authentication-mongodb/AuthApp.API
    ```
 3. Restore dependencies:
    ```bash
