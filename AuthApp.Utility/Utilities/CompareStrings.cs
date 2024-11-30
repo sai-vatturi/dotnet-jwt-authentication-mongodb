@@ -2,7 +2,7 @@ namespace AuthApp.Utility.Utilities
 {
     public class CompareStrings
     {
-
+		// Method to compare if two strings are equal
         public CompareStrings()
         {
 
@@ -16,6 +16,7 @@ namespace AuthApp.Utility.Utilities
             {
                 return (true,A,B);
             }
+
             return (false,A,B);
         }
     }
